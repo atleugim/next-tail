@@ -1,0 +1,24 @@
+{
+  "name": "next-tail",
+  "version": "0.1.0",
+  "description": "Create a new Next.js project with Tailwind CSS",
+  "main": "index.js",
+  "bin": {
+    "next-tail": "bin/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "fs-extra": "^11.1.0",
+    "inquirer": "^9.1.4",
+    "ora": "^6.1.2",
+    "terminal-link": "^3.0.0",
+    "yargs": "^17.6.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Miguel Vega <atleugim>",
+  "license": "ISC"
+}
